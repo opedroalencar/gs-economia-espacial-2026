@@ -1,0 +1,34 @@
+#include <DHT.h>
+
+#define DHTPIN 15          // Pino digital conectado ao DHT22
+#define DHTTYPE DHT22      // Definindo o tipo de sensor
+
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() {
+  Serial.begin(115200);
+  Serial.println("--- ECOSPACE HABITAT: INICIANDO MONITORAMENTO ---");
+  dht.begin();
+}
+
+void loop() {
+  // Aguarda 2 segundos entre as leituras
+  delay(2000);
+
+  // Leitura da umidade e temperatura
+  float umidade = dht.readHumidity();
+  float temperatura = dht.readTemperature();
+
+  // Verifica se a leitura falhou
+  if (isnan(umidade) || isnan(temperatura)) {
+    Serial.println("Erro ao ler o sensor DHT22!");
+    return;
+  }
+
+  // Printa os dados no Serial Monitor formatados
+  Serial.print("Temperatura: ");
+  Serial.print(temperatura);
+  Serial.print(" *C | Umidade: ");
+  Serial.print(umidade);
+  Serial.println(" %");
+}
