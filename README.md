@@ -43,8 +43,8 @@ Como toda Prova de Conceito inicial, o modelo adotado possui restrições físic
 
 ## 🔗 Links do Projeto
 
-* **Simulador do Hardware (Wokwi):** [Inserir_Link_do_Wokwi_Aqui]
-* **Repositório Principal (GitHub):** [Inserir_Link_do_GitHub_Aqui]
+* **Simulador do Hardware (Wokwi):** [https://wokwi.com/projects/466088547314584577]
+* **Repositório Principal (GitHub):** [https://github.com/opedroalencar/gs-economia-espacial-2026]
 
 ---
 
