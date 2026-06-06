@@ -21,7 +21,7 @@ FIAP - Faculdade de Informática e Administração Paulista
 * Sabrina
 
 ## 📜 Descrição
-O **EcoSpace Habitat** é uma Prova de Conceito (POC) desenvolvida para responder ao desafio da Global Solution 2026.1 sobre Economia Espacial. A solução consiste em um **Sistema Inteligente de Monitoramento e Predição Climática para Cultivos em Ambientes Extremos**, projetado para garantir a segurança alimentar de colônias espaciais (como biomas artificiais na Lua ou Marte) ou estufas de alta tecnologia em regiões remotas da Terra.
+O **EcoSpace Habitat** é uma Prova de Conceito (POC) desenvolvida para responder ao desafio da Global Solution 2026.1 sobre Economia Espacial. A solução consiste em um **Sistema Inteligente de Monitoramento e Predição Climática para Cultivos em Ambientes Extremos**, projetado para estufas de alta tecnologia em regiões remotas da Terra.
 
 O projeto integra três pilares fundamentais do aprendizado:
 1. **Hardware & IoT (ESP32):** Simulação no Wokwi utilizando um microcontrolador ESP32 conectado a um sensor DHT22 para capturar leituras de temperatura e umidade em tempo real dentro do habitat espacial.
