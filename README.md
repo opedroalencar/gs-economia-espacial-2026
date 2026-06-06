@@ -16,12 +16,8 @@ FIAP - Faculdade de Informática e Administração Paulista
 * Alisson Vinicius de Souza Rabelo Teixeira - RM573512
 * Lucas Michels Kuntz - RM570050
 
-## 👩‍🏫 Professores:
-### Tutor(a)
+### Tutor
 * Sabrina
-
-### Coordenador(a)
-* Nome do Coordenador
 
 ## 📜 Descrição Técnica e Fundamentação Científica
 Diferente de sistemas meteorológicos abertos, que se configuram como sistemas dinâmicos caóticos de alta complexidade e imprevisibilidade inerente, o microclima de uma estufa ou biosfera artificial fechada em ambientes extremos opera sob condições de contorno rigidamente controladas. O **EcoSpace Habitat** é uma Prova de Conceito (POC) que rejeita abordagens puramente reativas (como sistemas baseados em termostatos simples) e introduz o conceito de **Controle Preditivo Baseado em Modelo (MPC)** para a manutenção biológica e eficiência energética do ecossistema.
